@@ -1,0 +1,99 @@
+h4{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.25vw;
+    color: black;
+    background-color: #a6a6a6;
+   
+}
+
+li{
+    font-size: 1.25em;
+    color: gray;
+    
+
+}
+fieldset{
+    background-color: black;
+}
+
+title{
+    background-color: black;
+}
+
+.fruit-mix{
+    width: 182px;
+    height: 182px;
+    background-color: #adff00;
+    color: #adff00;
+
+}
+.mixed-fruit-desc{
+    font-size: 1.25vw;
+    background-color: #696969;
+}
+.bg-green{
+    background-color: #adff00;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: auto;
+    width: 100px;
+    
+}
+
+.fruits{
+    
+    justify-content:space-around;
+    background-color: #696969;
+    
+   
+}
+
+.favouritefruits{
+    display:flex;
+    justify-content: space-around;
+}
+.main{
+    display:flex;
+}
+.fruits{
+    width: 70%;
+}
+aside
+{
+    width: 30%;
+    background-color: #CDFF64;
+}
+aside > h1{
+    font: size 1.25vw ;
+    text-align: center;
+}
+aside >ul >li {
+    margin-right: 50px ;
+    margin-bottom: 20px;
+   
+}
+
+footer {
+    background-color: #a6a6a6;
+    text-align: center;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+@media only screen and (max-width: 425px){
+    .main{
+        display: block;
+    }
+    aside{
+        width: 100%;
+        background-color: #CDFF64;
+    }
+    }
